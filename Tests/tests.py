@@ -1,4 +1,7 @@
 import unittest
+import os
+os.chdir('~/')
+
 from hello_world import hello_world
 
 class TestHello(unittest.TestCase):
