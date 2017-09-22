@@ -2,5 +2,6 @@ language: python
 python:
   - "3.6"
 script:
+  - python setup.py install
   - python ./Tests/tests.py
   - python ./Tests/tests_2.py
