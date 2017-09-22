@@ -1,6 +1,6 @@
 import unittest
 import os
-os.chdir('~/')
+os.chdir('~')
 
 from hello_world import hello_world
 
